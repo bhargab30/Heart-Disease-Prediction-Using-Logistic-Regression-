@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
-heart_data = pd.read_csv('/content/heart.csv')
+heart_data = pd.read_csv('url for the heart data downloaded from kaggle')
 
 #checking for missing values
 heart_data.isnull().sum()
